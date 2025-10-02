@@ -12,6 +12,7 @@ find_package(VTK REQUIRED COMPONENTS
     vtkRenderingCore
     vtkInteractionStyle
     vtkRenderingOpenGL2
+    vtkInteractionWidgets
 )
 
 add_executable(ParametricCAD src/main.cpp)
